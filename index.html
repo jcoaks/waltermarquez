@@ -41,8 +41,16 @@
 		</div>
 	</nav>
 	<section id="home-section" class="hero">
-		<img class="" src="images/bg_1.png" style="margin: 79px 0 0;">
+		<img class="banner" src="images/bg_1.png" style="margin: 79px 0 0; width: 100%;">
 	</section>
+	<style>
+		@media only screen and (max-width: 768px) {
+			.banner{
+				margin: 15px 0 0 !important;
+				transform: scale(1.6);
+			}
+		}
+	</style>
 
 	<!--
 	<section class="ftco-counter img bg-light" id="section-counter">
